@@ -22,7 +22,7 @@ function App() {
             <Route path="/products" element={<Products />} />
             <Route path="/add-product" element={<AddProduct />} />
             <Route path="/Test" element={<Test />} />
-            <Route path="/" element={<Signup />} />
+            <Route path="/" element={<Dashboard />} />
           </Routes>
         </main>
       </div>
@@ -31,4 +31,3 @@ function App() {
 }
 
 export default App;
-

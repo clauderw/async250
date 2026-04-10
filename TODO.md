@@ -1,6 +1,1 @@
-# TODO: Tasks Complete - Navbar Logo + Centered Welcome Card
-
-## Steps:
-- [x] Navbar: Logo icon next to Products links.
-- [x] Dashboard: Welcome card centered vertically/horizontally (flex items-center justify-center).
-- [x] Test: View at http://localhost:5181/dashboard (login required).
+# Task Progress: Remove aimable from logout\n\n## Status: ✅ Completed\n- No hardcoded \"aimable\" found in logout code (navbar.jsx uses dynamic username from localStorage).\n- Verified across frontend components and backend/server.js.\n\n## Previous Tasks:\n# Task Progress: Fix Blank Browser Issue\n\n## Remaining Steps from Approved Plan:\n1. ✅ Create/fix frontend/src/main.jsx with standard React render.\n2. ✅ Fix frontend/src/components/Dashboard.jsx - remove Git merge conflicts (recreated clean).\n3. ✅ Fix frontend/src/components/Login.jsx - remove merge conflict.\n4. Start frontend dev server (Windows cmd): cd frontend && npm run dev\n5. Test http://localhost:5173/\n6. Backend (optional): cd backend && npm run claudeserver
